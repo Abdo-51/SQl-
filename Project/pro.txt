@@ -1,0 +1,7 @@
+Course ==> Entity (C_ID,C_Name,Description,Max Degree,Min Degree)
+Instractor ==>Entity (I_ID,I_Name,I_email,I_password,I_Age,i_address,I_phone)
+Exam==> Entity (E_ID,year,track,branch)  // will be Exam_Result
+Exam Dwtails==> Entity (Total_Degree,Start_Time,End_Time,Exam_type )
+Student==> Entity(S_ID,S_name,S_email,S_age,S_password,S,address)
+Answer==>Entity (A_ID,Student_answer)
+Question==>Entity (Q_ID,type[TorF,text],Name,Answer)
